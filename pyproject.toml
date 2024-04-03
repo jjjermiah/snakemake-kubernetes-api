@@ -23,6 +23,9 @@ pre-commit = ">=3.7.0,<3.8"
 [tool.pixi.system-requirements]
 linux = "5.4.203"
 
+[tool.pixi.tasks]
+test = "python -c 'print(\"Hello, World!\")'"
+
 ################################################################################
 # Semantic Release Configuration
 ################################################################################

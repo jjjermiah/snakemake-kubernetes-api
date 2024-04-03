@@ -19,27 +19,15 @@ jobs:
       uses: prefix-dev/setup-pixi@v0.5.1
       with:
         pixi-version: v0.18.0
-        log-level: v
-        manifest-path: ./pyproject.toml
+        log-level: vv
+        manifest-path: pyproject.toml
         # cache: true
         # auth-host: prefix.dev
         # auth-token: ${{ secrets.PREFIX_DEV_TOKEN }}
 
-    - name: Pixi Info
-      run: pixi info    
-
-    - name: Install project in pixi environment
-      run: | 
-        python --version
-        ls -lah
-        pip install .
-      shell: pixi run bash -e {0}
-
-    - name: Test version
-      run: |
-        import snakekube
-        print(snakekube.__version__)
-      shell: pixi run python  {0}
+    - run: |
+        pixi run python --version | grep -q 3.11
+        pixi run test | grep -q "Hello world"
 
   Semantic-Release:
     runs-on: ubuntu-latest
