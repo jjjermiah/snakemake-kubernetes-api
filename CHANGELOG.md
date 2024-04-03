@@ -2,6 +2,13 @@
 
 
 
+## v0.1.4-alpha.1 (2024-04-03)
+
+### Ci
+
+* ci: add GitHub Actions workflow for CI/CD ([`517985d`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/517985d8612d0342abd691abcf4c3834cce90e4e))
+
+
 ## v0.1.3 (2024-04-03)
 
 
@@ -13,9 +20,6 @@
 ### Documentation
 
 * docs: add design doc readme ([`38fbeee`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/38fbeeeac54fe8b1c09c5ac35476b9ff2101cf2b))
-
-
-## v0.1.1-alpha.2 (2024-04-03)
 
 ### Fix
 
