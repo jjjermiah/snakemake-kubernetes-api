@@ -1,7 +1,5 @@
 name: Semantic Release
 
-
-# only run on pushes to main or pull requests
 on:
   push:
     branches: [ 'main' , 'dev' , 'development' , 'staging', 'stg' ]
