@@ -4,9 +4,9 @@ name: Semantic Release
 # only run on pushes to main or pull requests
 on:
   push:
-    branches: [ main , development ]
+    branches: [ main , (dev|development) , (stg|staging) ]
   pull_request:
-    branches: [ main , development , dev ]
+    branches: [ main , (dev|development) , (stg|staging) ]
 
 jobs:
   Semantic-Release:
