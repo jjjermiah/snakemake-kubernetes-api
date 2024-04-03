@@ -2,6 +2,49 @@
 
 
 
+## v0.1.4-beta.6 (2024-04-03)
+
+### Build
+
+* build(deps): update main.yaml and pyproject.toml ([`e990f43`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/e990f437fc418ea61952b704e35214da7c4d5e13))
+
+* build(deps): update main.yaml and pyproject.toml ([`81ab6cd`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/81ab6cd7406109aaf3f29daffc777359763c9a51))
+
+* build(deps): update main.yaml and pyproject.toml ([`67dc3f1`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/67dc3f180c64c0c9fcb204d6b42366864ebd1244))
+
+* build(deps): update pyproject.toml ([`2207096`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/2207096c873b48d062412afb42a40aca038865cd))
+
+* build(deps): delete 3 files and update 1 file ([`d2e793c`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/d2e793ccfd32dd655c2149ab2341a8cce0158434))
+
+### Chore
+
+* chore: Merge branch &#39;development&#39; of github.com:jjjermiah/snakemake-kubernetes-api into development ([`89ed5a8`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/89ed5a8e7321ffb8a8ad94e7bf32e52755dafc78))
+
+### Ci
+
+* ci: update main.yaml ([`4be3aaa`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/4be3aaa46e7c50c9be06aebbd6bc81369924f63a))
+
+* ci: update main.yaml ([`fbe8e7c`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/fbe8e7cb76d1a2c1fcb0c22ebb7b8853b425b29e))
+
+* ci: update main.yaml ([`c75d87c`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/c75d87c1bde0e784389f8545811d6c8fe1089f3f))
+
+* ci: update main.yaml ([`06c24d2`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/06c24d2bc5cc5772bfa7a3df979ef5872732cb66))
+
+* ci: update main.yaml ([`1934d29`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/1934d290b6edd7838cedd99dee5bab073b85508a))
+
+* ci: update main.yaml ([`301b287`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/301b287a3edca873a5417261e1774dfdbc6aa5f2))
+
+* ci: update main.yaml ([`d37ae00`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/d37ae00003a6e2ae3d02179f1745d844ab24b515))
+
+### Fix
+
+* fix: Update main.yaml workflow file ([`edb767e`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/edb767e1b3a498962ddf8588fc749fcad2af8472))
+
+* fix: rename directory ([`05a35a8`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/05a35a8ae76ee0f0fb3996df9b018df26376cb28))
+
+* fix: update pyproject.toml ([`0a2340b`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0a2340b87433633005e96d109aa3873f112d8379))
+
+
 ## v0.1.4-beta.5 (2024-04-03)
 
 ### Build
