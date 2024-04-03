@@ -10,7 +10,7 @@ jobs:
   Run-A-Pixi-Job:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Run A Pixi Job
       run: echo "Running a Pixi Job"
@@ -28,7 +28,7 @@ jobs:
     - name: Run Pixi
       run: |
         pixi run python --version | grep 3.12
-        pixi run test | grep -q "Hello world"
+        pixi run test | grep "Hello, World"
 
   Semantic-Release:
     runs-on: ubuntu-latest
