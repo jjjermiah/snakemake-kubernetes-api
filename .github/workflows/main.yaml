@@ -25,8 +25,9 @@ jobs:
         # auth-host: prefix.dev
         # auth-token: ${{ secrets.PREFIX_DEV_TOKEN }}
 
-    - run: |
-        pixi run python --version | grep -q 3.11
+    - name: Run Pixi
+      run: |
+        pixi run python --version | grep -q 3.12
         pixi run test | grep -q "Hello world"
 
   Semantic-Release:
