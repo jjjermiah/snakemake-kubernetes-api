@@ -2,6 +2,15 @@
 
 
 
+## v0.1.8 (2024-04-03)
+
+### Unknown
+
+* Merge pull request #7 from jjjermiah/staging
+
+docs: update readme ([`b9274f1`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/b9274f12ddcc6dd6f1674c2a90cb4f37ad0535a1))
+
+
 ## v0.1.8-alpha.1 (2024-04-03)
 
 ### Documentation
