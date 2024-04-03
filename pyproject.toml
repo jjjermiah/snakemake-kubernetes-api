@@ -31,6 +31,9 @@ version_toml = [
     "pyproject.toml:project.version",
     "pyproject.toml:tool.pixi.project.version",
 ]
+version_variables = [
+    "src/main.py:__version__",
+]
 
 [tool.semantic_release.branches.main]
 match = "(main|master)"
