@@ -2,6 +2,19 @@
 
 
 
+## v0.1.4-beta.3 (2024-04-03)
+
+### Chore
+
+* chore: merge ([`b17db7a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/b17db7af4e000400895290b2274c337b8d320fcb))
+
+* chore: update .gitignore ([`3baf250`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/3baf25068b7fe364033759115c70cae38d250d24))
+
+### Ci
+
+* ci: update main.yaml ([`9b47a94`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/9b47a94361e5fd3420ff0bea5e11e6d24c974a7a))
+
+
 ## v0.1.4-beta.2 (2024-04-03)
 
 ### Build
