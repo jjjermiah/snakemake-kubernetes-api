@@ -2,6 +2,21 @@
 
 
 
+## v0.1.4-beta.1 (2024-04-03)
+
+### Ci
+
+* ci: add more branches ([`524a513`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/524a513e3f2e6ccc99499e23a6ae978f36f3e4c9))
+
+* ci: Update allowed_tags in pyproject.toml ([`be1d1f7`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/be1d1f7a06789d2c4650f48cb6bedf3ee9ba6ef7))
+
+* ci: add staging to semver ([`315b882`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/315b882b93f85ac4f7673da3f40410da2b775739))
+
+### Unknown
+
+* Merge branch &#39;development&#39; of github.com:jjjermiah/snakemake-kubernetes-api into development ([`b48b92b`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/b48b92bdfe2547059ba32442a85285f6ab62c1ab))
+
+
 ## v0.1.4-alpha.1 (2024-04-03)
 
 ### Ci
