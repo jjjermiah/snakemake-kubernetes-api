@@ -14,6 +14,7 @@ platforms = ["osx-arm64", "linux-64"]
 [tool.pixi.dependencies]
 python = "3.12.*"
 python-semantic-release = ">=9.4.0,<9.5"
+pre-commit = ">=3.7.0,<3.8"
 
 [tool.pixi.system-requirements]
 linux = "5.4.203"
