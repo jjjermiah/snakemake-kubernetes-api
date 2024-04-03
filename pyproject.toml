@@ -3,7 +3,7 @@ name = "snakemake_kubernetes_api"
 version = "0.1.4-beta.5"
 
 ################################################################################
-# Package Configuration
+# PIXI Configuration
 ################################################################################
 
 [tool.pixi.project]
