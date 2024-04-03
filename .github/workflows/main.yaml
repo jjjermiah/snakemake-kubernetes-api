@@ -2,9 +2,9 @@ name: CI-CD
 
 on:
   push:
-    branches: [ 'main' , 'dev' , 'development' , 'staging', 'stg' ]
+    branches: [ '*' ]
   pull_request:
-    branches: [ 'main' , 'dev' , 'development' , 'staging', 'stg' ]
+    branches: [ 'main' , 'staging']
 
 jobs:
   Run-A-Pixi-Job:
@@ -32,6 +32,7 @@ jobs:
 
   Semantic-Release:
     runs-on: ubuntu-latest
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging')
     needs: Run-A-Pixi-Job
     concurrency: release
     permissions:
