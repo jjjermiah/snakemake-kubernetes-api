@@ -1,6 +1,6 @@
 [project]
 name = "snakemake_kubernetes_api"
-version = "0.1.6-alpha.1"
+version = "0.1.6"
 
 [build-system]
 requires = ["setuptools", "wheel"]
