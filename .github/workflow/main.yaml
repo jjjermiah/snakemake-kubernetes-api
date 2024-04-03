@@ -28,14 +28,17 @@ jobs:
     - name: Pixi Info
       run: pixi info    
 
-    - name: List Files
-      run: ls -la
-
-    - name: Run a command in pixi
+    - name: Install project in pixi environment
       run: |
-        import src 
-        print(src.__version__)
-      shell: pixi run python {0}
+        python --version
+        pip install . 
+      shell: pixi run bash -e {0}
+
+    - name: Test version
+      run: |
+        import snakekube
+        print(snakekube.__version__)
+      shell: pixi run python -e {0}
 
   Semantic-Release:
       runs-on: ubuntu-latest

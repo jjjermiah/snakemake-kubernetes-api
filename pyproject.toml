@@ -1,5 +1,5 @@
 [project]
-name = "snakemake-kubernetes-api"
+name = "snakemake_kubernetes_api"
 version = "0.1.4-beta.5"
 
 ################################################################################
@@ -7,7 +7,7 @@ version = "0.1.4-beta.5"
 ################################################################################
 
 [tool.pixi.project]
-name = "snakemake-kubernetes-api"
+name = "snakemake_kubernetes_api"
 channels = ["conda-forge"]
 platforms = ["osx-arm64", "linux-64"]
 
@@ -32,7 +32,7 @@ version_toml = [
     "pyproject.toml:project.version",
 ]
 version_variables = [
-    "src/main.py:__version__",
+    "src/snakekube/main.py:__version__",
 ]
 
 [tool.semantic_release.branches.main]
