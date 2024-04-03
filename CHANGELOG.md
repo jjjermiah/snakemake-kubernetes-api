@@ -2,6 +2,29 @@
 
 
 
+## v0.1.4-beta.2 (2024-04-03)
+
+### Build
+
+* build(deps): update pyproject.toml ([`0b9aeb7`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0b9aeb7bf75405df150c0a2de8249a1fd149a72f))
+
+* build(deps): create 1 file and update 2 files ([`c850470`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/c8504702daf88dd333d2a33579af5dadba209071))
+
+### Ci
+
+* ci: update main.yaml ([`29a22fc`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/29a22fc76c8a1e7faa1ab73aa28e2672e5d9a07b))
+
+* ci: update main.yaml ([`2b8c04a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/2b8c04ab6893ed44f4b220c30f74da3ad7264589))
+
+* ci: update main.yaml ([`e712f52`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/e712f523f077d7779e035180c0ed10abc4f7cafb))
+
+* ci: Update branch filter in GitHub workflow ([`4ab24c8`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/4ab24c8e89515efbdd49f704bcdad4be7c094b7b))
+
+### Unknown
+
+* Merge branch &#39;development&#39; of github.com:jjjermiah/snakemake-kubernetes-api into development ([`4de43ca`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/4de43ca771d853f57c9c94fb3d24ffcfa850f415))
+
+
 ## v0.1.4-beta.1 (2024-04-03)
 
 ### Ci
