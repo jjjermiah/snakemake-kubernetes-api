@@ -2,6 +2,13 @@
 
 
 
+## v0.1.1-alpha.2 (2024-04-03)
+
+### Fix
+
+* fix: small fix ([`c9ed2f4`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/c9ed2f46766ec34cae3d804d1a5eac8e62f86203))
+
+
 ## v0.1.1-alpha.1 (2024-04-03)
 
 ### Build
