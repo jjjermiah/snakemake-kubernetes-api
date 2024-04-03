@@ -1,4 +1,5 @@
 # snakemake-kubernetes-api
+[![Pixi Badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json)](https://pixi.sh)
 
 This repository contains a simple API to interact with the Kubernetes API from Snakemake.
 
