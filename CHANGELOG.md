@@ -2,6 +2,19 @@
 
 
 
+## v0.1.1-alpha.1 (2024-04-03)
+
+### Build
+
+* build: add dev branch to semver ([`e3eca60`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/e3eca6000563401d7349940b2300af7c95ecfb74))
+
+* build: add patch tags ([`d2882dc`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/d2882dc92d79619ba5a35747bb5ea68d983ef4e8))
+
+### Fix
+
+* fix: remove pixi version ([`0854f48`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0854f489df0e1ed64064863c040e34c3b8f32ca2))
+
+
 ## v0.1.0+dev (2024-04-03)
 
 ### Feature
