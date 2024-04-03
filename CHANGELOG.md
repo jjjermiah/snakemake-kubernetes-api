@@ -2,18 +2,7 @@
 
 
 
-## v0.1.9-beta.3 (2024-04-03)
-
-### Documentation
-
-* docs: update README.md ([`a82a5ce`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/a82a5ce196d9dc7e78e3ee6f2554181f4e4bf663))
-
-
-## v0.1.9-beta.2 (2024-04-03)
-
-### Documentation
-
-* docs: update README.md ([`209a90d`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/209a90dfe20739a27ea71531946db8b2340e0fde))
+## v0.1.9 (2024-04-03)
 
 ### Unknown
 
