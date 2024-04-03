@@ -37,9 +37,14 @@ version_variables = [
 [tool.semantic_release.branches.main]
 match = "(main|master)"
 
-[tool.semantic_release.branches.development]
+[tool.semantic_release.branches.staging]
 match = "(stg|staging)"
 prerelease_token = "alpha"
+prerelease = true
+
+[tool.semantic_release.branches.development]
+match = "(dev|development)"
+prerelease_token = "beta"
 prerelease = true
 
 [tool.semantic_release.changelog]
