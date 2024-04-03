@@ -1,19 +1,20 @@
 [project]
-name = "snakemake-kubernetes-api"
-version = "0.1.0+dev"
+name = "snakemake_kubernetes_api"
+version = "0.1.4-beta.5"
 
 ################################################################################
-# Package Configuration
+# PIXI Configuration
 ################################################################################
 
 [tool.pixi.project]
-name = "snakemake-kubernetes-api"
+name = "snakemake_kubernetes_api"
 channels = ["conda-forge"]
 platforms = ["osx-arm64", "linux-64"]
 
 [tool.pixi.dependencies]
 python = "3.12.*"
 python-semantic-release = ">=9.4.0,<9.5"
+pre-commit = ">=3.7.0,<3.8"
 
 [tool.pixi.system-requirements]
 linux = "5.4.203"
@@ -31,25 +32,43 @@ version_toml = [
     "pyproject.toml:project.version",
 ]
 version_variables = [
-    "src/main.py:__version__",
+    "src/snakekube/main.py:__version__",
 ]
 
 [tool.semantic_release.branches.main]
 match = "(main|master)"
 
-[tool.semantic_release.branches.development]
-match = "(dev|development)"
+[tool.semantic_release.branches.staging]
+match = "(stg|staging)"
 prerelease_token = "alpha"
 prerelease = true
 
+[tool.semantic_release.branches.development]
+match = "(dev|development)"
+prerelease_token = "beta"
+prerelease = true
+
 [tool.semantic_release.changelog]
-# template_dir = "templates"
 changelog_file = "CHANGELOG.md"
 exclude_commit_patterns = []
 
 [tool.semantic_release.commit_parser_options]
-allowed_tags = ["build", "chore", "ci", "docs", "feat", "fix", "perf", "style", "refactor", "test"]
+allowed_tags = [
+    "build", 
+    "chore", 
+    "ci", 
+    "docs", 
+    "feat", 
+    "fix", 
+    "perf", 
+    "style", 
+    "refactor", 
+    "revert",
+    "test"
+]
+
 minor_tags = ["feat"]
+
 patch_tags = [
     "fix", 
     "perf",
@@ -74,7 +93,4 @@ ignore_token_for_push = true
 [tool.semantic_release.remote.token]
 env = "GH_TOKEN"
 
-[tool.semantic_release.publish]
-dist_glob_patterns = ["dist/*"]
-upload_to_vcs_release = false
 
