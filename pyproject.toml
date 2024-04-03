@@ -29,7 +29,6 @@ logging_use_named_masks = true
 tag_format = "v{version}"
 version_toml = [
     "pyproject.toml:project.version",
-    "pyproject.toml:tool.pixi.project.version",
 ]
 version_variables = [
     "src/main.py:__version__",
