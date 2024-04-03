@@ -2,9 +2,15 @@
 
 
 
-## v0.0.0 (2024-04-03)
+## v0.1.0 (2024-04-03)
+
+### Feature
+
+* feat: add version variables ([`201d8a3`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/201d8a3545874e6b03d4a1ad76a868d5b25b9bda))
 
 ### Unknown
+
+* Refactor code to improve performance and readability ([`1b21df9`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/1b21df95c3fe1e3d9ca30dc26bc9dbc5a57a25f9))
 
 * Delete sandbox.drawio.svg.drawio diagram file ([`10d77ff`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/10d77ffeca78d3a0788692136b5777b19ad4377e))
 
