@@ -8,7 +8,7 @@ This repository contains a simple API to interact with the Kubernetes API from S
 This project uses [Pixi](https://pixi.sh/dev/) to manage packages and the environment. 
 
 ```bash
-# linux / mac
+# linux / mac os
 curl -fsSL https://pixi.sh/install.sh | bash
 ```
 
