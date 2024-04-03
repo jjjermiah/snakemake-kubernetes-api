@@ -2,6 +2,17 @@
 
 
 
+## v0.1.4-beta.4 (2024-04-03)
+
+### Chore
+
+* chore: Merge branch &#39;development&#39; of github.com:jjjermiah/snakemake-kubernetes-api into development ([`b852df4`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/b852df4e2ef951b16212d4742425b4f05c1c3368))
+
+### Ci
+
+* ci: update main.yaml ([`96b24a6`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/96b24a69d1bf2c355fb632a5f218a819af287f57))
+
+
 ## v0.1.4-beta.3 (2024-04-03)
 
 ### Chore
