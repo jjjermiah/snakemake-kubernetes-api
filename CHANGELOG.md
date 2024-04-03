@@ -2,6 +2,31 @@
 
 
 
+## v0.1.9-beta.1 (2024-04-03)
+
+### Build
+
+* build(deps): update CHANGELOG.md, pyproject.toml and main.py ([`022b0dd`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/022b0dd9b3b9abc0cbec5e7e60487a94f993bae8))
+
+### Chore
+
+* chore: Merge branch &#39;staging&#39; into development ([`0d957fa`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0d957fad0fe0a472e9b8dd544f9bd6477df43292))
+
+### Ci
+
+* ci: update main.yaml ([`bce7296`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/bce72962198af52c06273f44ff80cc027fe370fa))
+
+* ci: update main.yaml ([`532e218`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/532e2180bd4bb0bdd13f0fb051a6aaeb1aa2d381))
+
+* ci: update main.yaml ([`b0c12ff`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/b0c12ffcc5088a8692305c1350f7d41ea9eacec8))
+
+* ci: add dependabot ([`1eee1fe`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/1eee1fee3f30a2d8e72e8f1699bf464f9788be92))
+
+### Documentation
+
+* docs: Add CI/CD badges and version shields ([`8eb3351`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/8eb33515af63e7385fbfa5a9c4c41c221c5ca35d))
+
+
 ## v0.1.8 (2024-04-03)
 
 ### Unknown
