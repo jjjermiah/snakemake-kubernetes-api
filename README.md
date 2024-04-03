@@ -7,11 +7,12 @@
 )
 ![Development Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fdevelopment%2Fpyproject.toml&query=project.version&prefix=v&label=development&color=yellow
 )
-This repository contains a simple API to interact with the Kubernetes API from Snakemake.
+
+This project contains a simple API to interact with the Kubernetes API from Snakemake.
 
 ## Setup
 
-This project uses [Pixi](https://pixi.sh/dev/) to manage packages and the environment. 
+This project uses [Pixi](https://pixi.sh/dev/) to manage packages and the environment.
 
 ```bash
 # linux / mac os
