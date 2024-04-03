@@ -1,5 +1,7 @@
 name: CI-CD 
 
+# This code is a basic example of a CI/CD pipeline that uses Pixi and Semantic Release to automate the release process.
+
 on:
   push:
     branches: [ '*' ]
