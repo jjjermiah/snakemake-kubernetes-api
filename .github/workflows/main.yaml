@@ -28,6 +28,9 @@ jobs:
     - name: Pixi Info
       run: pixi info    
 
+    - name: List Files
+      run: ls -la
+
     - name: Run a command in pixi
       run: |
         import src 
