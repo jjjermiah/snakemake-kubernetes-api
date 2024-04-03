@@ -2,6 +2,17 @@
 
 
 
+## v0.1.4-beta.5 (2024-04-03)
+
+### Build
+
+* build(deps): update CHANGELOG.md, pyproject.toml and main.py ([`bcc6931`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/bcc6931bdae8681102546345964600cd7fe35274))
+
+### Ci
+
+* ci: update main.yaml ([`c74b458`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/c74b45846f7695f347da200309ed3d08b230565d))
+
+
 ## v0.1.4-beta.4 (2024-04-03)
 
 ### Chore
