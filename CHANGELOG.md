@@ -2,6 +2,31 @@
 
 
 
+## v0.1.4 (2024-04-03)
+
+### Chore
+
+* chore: Merge branch &#39;development&#39; of github.com:jjjermiah/snakemake-kubernetes-api into development ([`eb4790f`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/eb4790fda11d34ccadc31bea0bca114ee09256e3))
+
+### Ci
+
+* ci: update main.yaml ([`b77fea8`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/b77fea854e66656d30e65eb2d5dc319dc295647b))
+
+### Unknown
+
+* Merge pull request #4 from jjjermiah/staging
+
+Staging ([`3ce497a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/3ce497a507b54701911851eb558e735101e5fcba))
+
+* Merge pull request #3 from jjjermiah/development
+
+Development ([`449daae`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/449daae1ea77a665a6258ece415393dbf494930d))
+
+* Merge pull request #2 from jjjermiah/development
+
+Development ([`35a4823`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/35a48230ff6e0d22a23f01821f2ef2ac17ede9bc))
+
+
 ## v0.1.4-beta.7 (2024-04-03)
 
 ### Chore
@@ -54,6 +79,12 @@
 * fix: rename directory ([`05a35a8`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/05a35a8ae76ee0f0fb3996df9b018df26376cb28))
 
 * fix: update pyproject.toml ([`0a2340b`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0a2340b87433633005e96d109aa3873f112d8379))
+
+### Unknown
+
+* Merge pull request #1 from jjjermiah/development
+
+Development ([`4e55ec4`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/4e55ec4ac453c828dc619f78a6cc84d7d8557da6))
 
 
 ## v0.1.4-beta.5 (2024-04-03)
