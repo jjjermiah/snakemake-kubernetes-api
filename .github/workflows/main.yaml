@@ -31,6 +31,7 @@ jobs:
     - name: Install project in pixi environment
       run: | 
         python --version
+        ls -lah
         pip install .
       shell: pixi run bash -e {0}
 
