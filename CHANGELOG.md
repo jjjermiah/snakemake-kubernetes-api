@@ -2,6 +2,17 @@
 
 
 
+## v0.1.4-beta.7 (2024-04-03)
+
+### Chore
+
+* chore: merge ([`7563b87`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/7563b8743c38b11caca287a96a66bfa89435b659))
+
+### Ci
+
+* ci: Update CI-CD workflow to include package and action permissions ([`ff39d8f`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/ff39d8ff2f939a7617480b18cd372fadee8b486e))
+
+
 ## v0.1.4-beta.6 (2024-04-03)
 
 ### Build
