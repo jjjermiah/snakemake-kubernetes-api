@@ -2,6 +2,13 @@
 
 
 
+## v0.1.1-alpha.3 (2024-04-03)
+
+### Documentation
+
+* docs: add design doc readme ([`38fbeee`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/38fbeeeac54fe8b1c09c5ac35476b9ff2101cf2b))
+
+
 ## v0.1.1-alpha.2 (2024-04-03)
 
 ### Fix
