@@ -41,6 +41,7 @@ jobs:
       with:
         pixi-version: v0.18.0
         log-level: v
+        manifest-path: ./pyproject.toml
         # cache: true
         # auth-host: prefix.dev
         # auth-token: ${{ secrets.PREFIX_DEV_TOKEN }}
