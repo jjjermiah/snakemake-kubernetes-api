@@ -9,7 +9,7 @@ on:
     branches: [ main , development , dev ]
 
 jobs:
-  release:
+  Semantic-Release:
     runs-on: ubuntu-latest
     concurrency: release
     permissions:
