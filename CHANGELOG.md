@@ -2,6 +2,15 @@
 
 
 
+## v0.1.7 (2024-04-03)
+
+### Documentation
+
+* docs: update yaml ([`dbcefaa`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/dbcefaa2244cd2fcdf28dcbe798ed7b42a815a79))
+
+* docs: update yaml ([`27f2015`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/27f201555457e9be9e221c78bb7076d0267ef2e8))
+
+
 ## v0.1.6 (2024-04-03)
 
 ### Unknown
