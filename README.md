@@ -31,6 +31,8 @@ automatic versioning and changelog generation.
 
 It is implemented via GitHub Actions and the configuration can be found in `.github/workflows/main.yml`.
 
+For a detailed explanation of the release process, please refer to the [GitFlow Process and Release Cycle](docs/GitFlow-Process_ReleaseCycle.md).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
