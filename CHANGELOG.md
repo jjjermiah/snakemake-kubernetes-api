@@ -2,6 +2,17 @@
 
 
 
+## v0.1.10-alpha.1 (2024-04-04)
+
+### Ci
+
+* ci: update main.yaml ([`2da731e`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/2da731e20573d73084e76f13b116ab5ea93de521))
+
+### Fix
+
+* fix: add development back ([`4e3713a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/4e3713a7d814e312f3d639431276f45e55a3dab8))
+
+
 ## v0.1.10-rc.1 (2024-04-04)
 
 ### Fix
