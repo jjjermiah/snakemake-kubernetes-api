@@ -2,6 +2,41 @@
 
 
 
+## v0.2.0-rc.1 (2024-04-04)
+
+### Ci
+
+* ci: add pre-commit ([`50651d2`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/50651d209c31ca8bfd8e7c0bf4a2fabf74581a54))
+
+* ci: Update pyproject.toml ([`ebab740`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/ebab740c82366f512f11e293feaad60e0ca080f8))
+
+### Documentation
+
+* docs: Add installation instructions and pixi task for running main.py ([`8d4844f`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/8d4844fe2dde4dcefcab2ccc501a45877df40275))
+
+* docs: Add guide for multi-stage deployment of Flask applications on GCP ([`1cfb6f3`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/1cfb6f385976416f92cf9a3b4556bc86f9bcb84f))
+
+* docs: Update root_options in Python Semantic Release workflow and add Kubernetes deployment design document ([`ce263b6`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/ce263b60d40a48b582334196464b7c04590e8904))
+
+### Feature
+
+* feat: Add test function for logging and update README ([`40e0304`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/40e0304e7fdc7464e12319617b0c6f7acef2f1a0))
+
+* feat: setup project structure ([`9db046f`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/9db046fd751c233cd4ba85536b1137da02013ee9))
+
+### Fix
+
+* fix: Merge remote-tracking branch &#39;origin&#39; into development ([`9101dc9`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/9101dc9c655be4e5e7ec37567d996055f06c1a43))
+
+* fix: add logging and directories ([`6e8b9a7`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/6e8b9a73f4bb934060d28033c3687eb97cad84e2))
+
+### Unknown
+
+* Merge pull request #18 from jjjermiah:development
+
+Update project structure and add documentation ([`325f7f4`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/325f7f4e774842b1af2ff7d46a2d3cac68865969))
+
+
 ## v0.1.11 (2024-04-04)
 
 ### Unknown
