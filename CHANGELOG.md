@@ -2,6 +2,15 @@
 
 
 
+## v0.2.0 (2024-04-04)
+
+### Unknown
+
+* Merge pull request #20 from jjjermiah/staging
+
+Staging ([`c0e23e1`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/c0e23e102bcedfe085f06d97e12aad5c52ed6e9d))
+
+
 ## v0.2.0-rc.2 (2024-04-04)
 
 ### Documentation
