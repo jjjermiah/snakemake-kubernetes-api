@@ -47,12 +47,7 @@ match = "(main|master)"
 
 [tool.semantic_release.branches.staging]
 match = "(stg|staging)"
-prerelease_token = "alpha"
-prerelease = true
-
-[tool.semantic_release.branches.development]
-match = "(dev|development)"
-prerelease_token = "beta"
+prerelease_token = "rc"
 prerelease = true
 
 [tool.semantic_release.changelog]
