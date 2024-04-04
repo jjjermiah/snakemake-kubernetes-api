@@ -25,6 +25,7 @@ linux = "5.4.203"
 
 [tool.pixi.tasks]
 test = "python -c 'print(\"Hello, World!\")'"
+hello = "python -m src.core.snakemake.main"
 
 ################################################################################
 # Semantic Release Configuration
@@ -54,15 +55,15 @@ exclude_commit_patterns = []
 
 [tool.semantic_release.commit_parser_options]
 allowed_tags = [
-    "build", 
-    "chore", 
-    "ci", 
-    "docs", 
-    "feat", 
-    "fix", 
-    "perf", 
-    "style", 
-    "refactor", 
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "feat",
+    "fix",
+    "perf",
+    "style",
+    "refactor",
     "revert",
     "test",
 ]
@@ -70,7 +71,7 @@ allowed_tags = [
 minor_tags = ["feat"]
 
 patch_tags = [
-    "fix", 
+    "fix",
     "perf",
     "build",
     "ci",
@@ -92,5 +93,3 @@ ignore_token_for_push = true
 
 [tool.semantic_release.remote.token]
 env = "GH_TOKEN"
-
-
