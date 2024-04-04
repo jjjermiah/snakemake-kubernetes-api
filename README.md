@@ -1,6 +1,8 @@
 # snakemake-kubernetes-api
-[![Pixi Badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json)](https://pixi.sh)
 [![CI-CD](https://github.com/jjjermiah/snakemake-kubernetes-api/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/jjjermiah/snakemake-kubernetes-api/actions/workflows/main.yaml)
+[![Pixi Badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json)](https://pixi.sh)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)](https://github.com/pre-commit/pre-commit)
+
 
 [![GitHub Release](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fmain%2Fpyproject.toml&query=project.version&prefix=v&label=release&color=red
 )](https://github.com/jjjermiah/snakemake-kubernetes-api/tree/main)
@@ -24,7 +26,7 @@ curl -fsSL https://pixi.sh/install.sh | bash
 pixi install
 ```
 
-There is a simple test function implemented in src/common/logging/logging.py called `test_function` that is 
+There is a simple test function implemented in src/common/logging/logging.py called `test_function` that is
 called from the src/core/snakemake/main.py file. This function is used to test the logging functionality.
 
 To run using the environment managed by pixi, run the following command in the root directory of the project:
@@ -36,7 +38,7 @@ pixi run python -m src.core.snakemake.main
 ## Semantic Versioning
 
 This project uses [Python Semantic Release](https://python-semantic-release.readthedocs.io/en/latest/) for
-automatic versioning and changelog generation. 
+automatic versioning and changelog generation.
 
 It is implemented via GitHub Actions and the configuration can be found in `.github/workflows/main.yml`.
 
