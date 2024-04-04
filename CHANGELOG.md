@@ -2,6 +2,15 @@
 
 
 
+## v0.1.10-alpha.2 (2024-04-04)
+
+### Documentation
+
+* docs: update readme ([`54996ec`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/54996ecd7c720dc105bc8fdf8e89885827088f4e))
+
+* docs: update sandbox.drawio with some git requirements ([`c2adc7a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/c2adc7ae3ab2f5149fedc90ef7ebbfb3cce46130))
+
+
 ## v0.1.10-alpha.1 (2024-04-04)
 
 ### Ci
