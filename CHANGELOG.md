@@ -2,6 +2,21 @@
 
 
 
+## v0.2.0-rc.2 (2024-04-04)
+
+### Documentation
+
+* docs: update README.md Update implementation details in README.md ([`b0f8c53`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/b0f8c53a7517b9d3e459979e091a6b3e7cdb8b99))
+
+* docs: update README.md Update test_function and add TODO comment ([`6db13e9`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/6db13e9aef025d03a9a14dcf5fbb89d36653dfbd))
+
+### Unknown
+
+* Merge pull request #19 from jjjermiah:development
+
+Development ([`33875d6`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/33875d620e6ea8ed73c0cc97ee1a16df92aed16d))
+
+
 ## v0.2.0-rc.1 (2024-04-04)
 
 ### Ci
