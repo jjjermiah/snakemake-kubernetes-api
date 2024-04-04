@@ -2,6 +2,23 @@
 
 
 
+## v0.1.10-rc.1 (2024-04-04)
+
+### Fix
+
+* fix: change versioning schema ([`2587aa5`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/2587aa5ad35cefaeee5113927b8ed3b972dfa29e))
+
+### Unknown
+
+* merge: Merge pull request #12 from jjjermiah:development
+
+Development ([`0044fa3`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0044fa3705a6e9fd08ef4606ca56c9c906f3f6d9))
+
+* Merge pull request #11 from jjjermiah/development
+
+Update README.md and bump version to 0.1.9-beta.3 ([`358bb17`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/358bb17238da7d621a1b8892117980a5fbcda0fe))
+
+
 ## v0.1.10-beta.1 (2024-04-03)
 
 ### Documentation
@@ -18,6 +35,12 @@
 ### Documentation
 
 * docs: update README.md ([`a82a5ce`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/a82a5ce196d9dc7e78e3ee6f2554181f4e4bf663))
+
+### Unknown
+
+* Merge pull request #10 from jjjermiah/development
+
+Development ([`378c074`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/378c0740c7e71e88beceb2192473901282e7031d))
 
 
 ## v0.1.9-beta.2 (2024-04-03)
