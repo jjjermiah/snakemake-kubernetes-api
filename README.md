@@ -34,8 +34,8 @@ This ensures that any other packages or dependencies can be synchronized across 
 
 ## Quick start with the project and Pixi
 
-There is a simple test function implemented in src/common/logging/logging.py called `test_function` that is
-called from the src/core/snakemake/main.py file. This function is used to test the logging functionality.
+There is a simple test function implemented in [src/common/logging/logging.py](src/common/logging/logging.py) called `test_function` that is
+called from the [src/core/snakemake/main.py](src/core/snakemake/main.py) file. This function is used to test the logging functionality.
 
 To run using the environment managed by pixi, run the following command in the root directory of the project:
 
@@ -52,7 +52,7 @@ To run the task, use the following command:
 pixi run hello
 ```
 
-
+TODO:: as development progresses, remove the test_function and add a more meaningful function to show the functionality of the project and PIXI in general.
 
 ## Semantic Versioning
 
