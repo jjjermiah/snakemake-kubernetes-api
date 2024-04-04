@@ -2,6 +2,35 @@
 
 
 
+## v0.1.10 (2024-04-04)
+
+### Documentation
+
+* docs: add gitflow process description ([`416a32e`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/416a32e8b933ec8916419ba824cebec9420ba9b8))
+
+### Fix
+
+* fix: update diagram ([`0319315`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0319315e95d12aea8d484919fd8523ade77614d9))
+
+* fix: force update Update version to 0.1.11 in pyproject.toml and main.py ([`8bede2a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/8bede2a3cc843a4e6d20bbd6520d53aebda6ec0b))
+
+* fix: Update Semantic-Release configuration ([`43f72c5`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/43f72c544bd76d50da634ea1f5141158286d3522))
+
+### Unknown
+
+* Merge pull request #15 from jjjermiah/staging
+
+Staging ([`afa277a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/afa277a74008f895444812de2629281b792044cc))
+
+* Merge pull request #14 from jjjermiah:development
+
+Update Semantic-Release configuration and version ([`7a53880`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/7a53880c0fda814ddaada9a13b29b26e93c46cbd))
+
+* Merge pull request #13 from jjjermiah/development
+
+Fix versioning and update documentation ([`134064a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/134064a19dd2557aeb3e2258a39863328ca9dbc2))
+
+
 ## v0.1.10-alpha.2 (2024-04-04)
 
 ### Documentation
