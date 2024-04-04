@@ -1,6 +1,6 @@
 [project]
 name = "snakemake_kubernetes_api"
-version = "0.1.10-alpha.2"
+version = "0.1.11"
 
 [build-system]
 requires = ["setuptools", "wheel"]
@@ -49,12 +49,6 @@ match = "(main|master)"
 match = "(stg|staging)"
 prerelease_token = "rc"
 prerelease = true
-
-[tool.semantic_release.branches.develop]
-match = "(dev|development)"
-prerelease_token = "alpha"
-prerelease = true
-
 
 [tool.semantic_release.changelog]
 changelog_file = "CHANGELOG.md"
