@@ -33,9 +33,13 @@ gitGraph TB:
     commit id: "feat: initial commit"
     branch staging
     branch development
-    checkout development
+    branch feat1
     commit id: "feat: add feature1"
+    branch feat2
     commit id: "feat: add feature2"
+    checkout development
+    merge feat1 id: "merge: feature1"
+    merge feat2 id: "merge: feature2"
     checkout staging
     merge development id: "merge: feature1, feature2" tag: "v1.0.0-rc.1"
     checkout development
