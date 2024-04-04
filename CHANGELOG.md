@@ -2,6 +2,23 @@
 
 
 
+## v0.1.11-rc.1 (2024-04-04)
+
+### Ci
+
+* ci: Merge remote-tracking branch &#39;origin&#39; into development ([`369c716`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/369c71644e1f618c35d31d42b59fa1ed6ef3c81f))
+
+### Documentation
+
+* docs: Update badge URLs in README.md ([`7d57db5`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/7d57db5cf0f4be729100f3a7e0408bfbcf885d35))
+
+### Unknown
+
+* Merge pull request #16 from jjjermiah:development
+
+Update badge URLs in README.md ([`4b9a055`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/4b9a0555cbde32159de965ec3bb920ffd630366a))
+
+
 ## v0.1.10 (2024-04-04)
 
 ### Documentation
