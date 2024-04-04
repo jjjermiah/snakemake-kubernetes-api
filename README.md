@@ -24,6 +24,15 @@ curl -fsSL https://pixi.sh/install.sh | bash
 pixi install
 ```
 
+There is a simple test function implemented in src/common/logging/logging.py called `test_function` that is 
+called from the src/core/snakemake/main.py file. This function is used to test the logging functionality.
+
+To run using the environment managed by pixi, run the following command in the root directory of the project:
+
+``` bash
+pixi run python -m src.core.snakemake.main
+```
+
 ## Semantic Versioning
 
 This project uses [Python Semantic Release](https://python-semantic-release.readthedocs.io/en/latest/) for
