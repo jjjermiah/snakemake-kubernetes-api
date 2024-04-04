@@ -2,12 +2,12 @@
 [![Pixi Badge](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json)](https://pixi.sh)
 [![CI-CD](https://github.com/jjjermiah/snakemake-kubernetes-api/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/jjjermiah/snakemake-kubernetes-api/actions/workflows/main.yaml)
 
-![GitHub Release](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fmain%2Fpyproject.toml&query=project.version&prefix=v&label=release&color=red
-)
-![Staging Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fstaging%2Fpyproject.toml&query=project.version&prefix=v&label=staging&color=orange
-)
-![Development Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fdevelopment%2Fpyproject.toml&query=project.version&prefix=v&label=development&color=yellow
-)
+[![GitHub Release](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fmain%2Fpyproject.toml&query=project.version&prefix=v&label=release&color=red
+)](https://github.com/jjjermiah/snakemake-kubernetes-api/tree/main)
+[![Staging Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fstaging%2Fpyproject.toml&query=project.version&prefix=v&label=staging&color=orange
+)](https://github.com/jjjermiah/snakemake-kubernetes-api/tree/staging)
+[![Development Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fjjjermiah%2Fsnakemake-kubernetes-api%2Fdevelopment%2Fpyproject.toml&query=project.version&prefix=v&label=development&color=yellow
+)](https://github.com/jjjermiah/snakemake-kubernetes-api/tree/development)
 
 This project contains a simple API to interact with the Kubernetes API from Snakemake.
 
