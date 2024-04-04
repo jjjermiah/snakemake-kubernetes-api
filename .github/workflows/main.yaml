@@ -57,6 +57,6 @@ jobs:
     - name: Python Semantic Release
       uses: python-semantic-release/python-semantic-release@master
       with:
-        root_options: -v
+        root_options: -vv
         github_token: ${{ secrets.GITHUB_TOKEN }}
         git_committer_name: 'gh-actions-semver'
