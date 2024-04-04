@@ -2,6 +2,74 @@
 
 
 
+## v0.1.10-alpha.2 (2024-04-04)
+
+### Documentation
+
+* docs: update readme ([`54996ec`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/54996ecd7c720dc105bc8fdf8e89885827088f4e))
+
+* docs: update sandbox.drawio with some git requirements ([`c2adc7a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/c2adc7ae3ab2f5149fedc90ef7ebbfb3cce46130))
+
+
+## v0.1.10-alpha.1 (2024-04-04)
+
+### Ci
+
+* ci: update main.yaml ([`2da731e`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/2da731e20573d73084e76f13b116ab5ea93de521))
+
+### Fix
+
+* fix: add development back ([`4e3713a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/4e3713a7d814e312f3d639431276f45e55a3dab8))
+
+
+## v0.1.10-rc.1 (2024-04-04)
+
+### Fix
+
+* fix: change versioning schema ([`2587aa5`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/2587aa5ad35cefaeee5113927b8ed3b972dfa29e))
+
+### Unknown
+
+* merge: Merge pull request #12 from jjjermiah:development
+
+Development ([`0044fa3`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/0044fa3705a6e9fd08ef4606ca56c9c906f3f6d9))
+
+* Merge pull request #11 from jjjermiah/development
+
+Update README.md and bump version to 0.1.9-beta.3 ([`358bb17`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/358bb17238da7d621a1b8892117980a5fbcda0fe))
+
+
+## v0.1.10-beta.1 (2024-04-03)
+
+### Documentation
+
+* docs: update README.md ([`62bb41a`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/62bb41a1bbedf7b463c9cc0ffd261cc3f5b4b608))
+
+### Fix
+
+* fix: Merge remote-tracking branch &#39;origin&#39; into development ([`9aa7ffe`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/9aa7ffe9db9643c5867ecc6afe17fb5fe6ab6240))
+
+
+## v0.1.9-beta.3 (2024-04-03)
+
+### Documentation
+
+* docs: update README.md ([`a82a5ce`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/a82a5ce196d9dc7e78e3ee6f2554181f4e4bf663))
+
+### Unknown
+
+* Merge pull request #10 from jjjermiah/development
+
+Development ([`378c074`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/378c0740c7e71e88beceb2192473901282e7031d))
+
+
+## v0.1.9-beta.2 (2024-04-03)
+
+### Documentation
+
+* docs: update README.md ([`209a90d`](https://github.com/jjjermiah/snakemake-kubernetes-api/commit/209a90dfe20739a27ea71531946db8b2340e0fde))
+
+
 ## v0.1.9 (2024-04-03)
 
 ### Unknown

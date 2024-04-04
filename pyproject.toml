@@ -1,6 +1,6 @@
 [project]
 name = "snakemake_kubernetes_api"
-version = "0.1.9"
+version = "0.1.11"
 
 [build-system]
 requires = ["setuptools", "wheel"]
@@ -47,12 +47,7 @@ match = "(main|master)"
 
 [tool.semantic_release.branches.staging]
 match = "(stg|staging)"
-prerelease_token = "alpha"
-prerelease = true
-
-[tool.semantic_release.branches.development]
-match = "(dev|development)"
-prerelease_token = "beta"
+prerelease_token = "rc"
 prerelease = true
 
 [tool.semantic_release.changelog]
@@ -71,7 +66,7 @@ allowed_tags = [
     "style", 
     "refactor", 
     "revert",
-    "test"
+    "test",
 ]
 
 minor_tags = ["feat"]
