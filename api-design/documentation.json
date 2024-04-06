@@ -1,9 +1,10 @@
 {
 	"info": {
-		"_postman_id": "27bbed02-7bc3-4035-b418-2420ecf4c493",
+		"_postman_id": "8678a762-ee8d-4d46-8fe7-161db2819005",
 		"name": "API Documentation #reference",
 		"description": "This template contains a boilerplate for documentation that you can quickly customize and reuse.\n\n### How to use this template:\n\n- Replace the content given brackets (()) with your API's details.\n- Tips are formatted in `codespan` - feel free to read and remove them.\n    \n\n---\n\n`Start with a brief overview of what your API offers.`\n\nThe ((product name)) provides many API products, tools, and resources that enable you to ((add product value here)).\n\n`You can also list the APIs you offer, link to the relevant pages, or do both in this section.`\n\n## **Getting started guide**\n\n`List the steps or points required to start using your APIs. Make sure to cover everything required to reach success with your API as quickly as possible.`\n\nTo start using the ((add APIs here)), you need to -\n\n`The points given below are from The Postman API's documentation. You can reference it to write your own getting started guide.`\n\n- You must use a valid API Key to send requests to the API endpoints. You can get your API key from Postman's [integrations dashboard](https://go.postman.co/settings/me/api-keys).\n- The API has [rate and usage limits](https://postman.postman.co/workspace/Collection-Templates~6311738d-2e70-441f-ae12-78caf078c5b7/collection/22517504-e9c28f47-1253-44af-a2f3-20dce4da1f18?ctx=documentation#rate-and-usage-limits).\n- The API only responds to HTTPS-secured communications. Any requests sent via HTTP return an HTTP 301 redirect to the corresponding HTTPS resources.\n- The API returns request responses in JSON format. When an API request returns an error, it is sent in the JSON response as an error key.\n    \n\n## Authentication\n\n`Add details on the authorization keys/tokens required, steps that cover how to get them, and the relevant error codes.`\n\nThe ((product name)) API uses ((add your API's authorization type)) for authentication.\n\n`The details given below are from the Postman API's documentation. You can reference it to write your own authentication section.`\n\nPostman uses API keys for authentication. You can generate a Postman API key in the [API keys](https://postman.postman.co/settings/me/api-keys) section of your Postman account settings.\n\nYou must include an API key in each request to the Postman API with the X-Api-Key request header.\n\n### Authentication error response\n\nIf an API key is missing, malformed, or invalid, you will receive an HTTP 401 Unauthorized response code.\n\n## Rate and usage limits\n\n`Use this section to cover your APIs' terms of use. Include API limits, constraints, and relevant error codes, so consumers understand the permitted API usage and practices.`\n\n`The example given below is from The Postman API's documentation. Use it as a reference to write your APIs' terms of use.`\n\nAPI access rate limits apply at a per-API key basis in unit time. The limit is 300 requests per minute. Also, depending on your plan, you may have usage limits. If you exceed either limit, your request will return an HTTP 429 Too Many Requests status code.\n\nEach API response returns the following set of headers to help you identify your use status:\n\n| Header | Description |\n| --- | --- |\n| `X-RateLimit-Limit` | The maximum number of requests that the consumer is permitted to make per minute. |\n| `X-RateLimit-Remaining` | The number of requests remaining in the current rate limit window. |\n| `X-RateLimit-Reset` | The time at which the current rate limit window resets in UTC epoch seconds. |\n\n### 503 response\n\nAn HTTP `503` response from our servers indicates there is an unexpected spike in API access traffic. The server is usually operational within the next five minutes. If the outage persists or you receive any other form of an HTTP `5XX` error, [contact support](https://support.postman.com/hc/en-us/requests/new/).\n\n### **Need some help?**\n\n`Add links that customers can refer to whenever they need help.`\n\nIn case you have questions, go through our tutorials ((link to your video or help documentation here)). Or visit our FAQ page ((link to the relevant page)).\n\nOr you can check out our community forum, there’s a good chance our community has an answer for you. Visit our developer forum ((link to developer forum)) to review topics, ask questions, and learn from others.\n\n`You can also document or add links to libraries, code examples, and other resources needed to make a request.`",
-		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "30506956-8678a762-ee8d-4d46-8fe7-161db2819005"
 	},
 	"item": [
 		{
@@ -18,11 +19,12 @@
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"id": "54baa79d-152a-45c3-90b4-bb6a4c8c0b8c"
 							}
 						}
 					],
-					"id": "bd55e2dc-2fb0-4f32-abd5-74ed564d060e",
+					"id": "7a8812c4-a79b-4b49-b8aa-296e87d1cd27",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -48,16 +50,28 @@
 					},
 					"response": [
 						{
-							"id": "3275c66b-17b0-416f-ae4c-2a1d1194cf55",
+							"id": "2a4676c9-319b-4405-9044-62273b205e3d",
 							"name": "Successful Response",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": "https://api.getpostman.com/me"
+								"url": {
+									"raw": "https://api.getpostman.com/me",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"me"
+									]
+								}
 							},
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -74,16 +88,28 @@
 							"body": "{\n    \"user\": {\n        \"id\": 12345678,\n        \"username\": \"taylor-lee\",\n        \"email\": \"taylor.lee@example.com\",\n        \"fullName\": \"Taylor Lee\",\n        \"avatar\": \"https://example.com/user/r5u9qpvmujfjf6lbqmga.jpg\",\n        \"isPublic\": true\n    },\n    \"operations\": [\n        {\n            \"name\": \"mock_usage\",\n            \"limit\": 1000000,\n            \"usage\": 110276,\n            \"overage\": 0\n        },\n        {\n            \"name\": \"monitor_request_runs\",\n            \"limit\": 10000000,\n            \"usage\": 1141750,\n            \"overage\": 0\n        },\n        {\n            \"name\": \"api_usage\",\n            \"limit\": 1000000,\n            \"usage\": 16240,\n            \"overage\": 0\n        },\n        {\n            \"name\": \"custom_domains\",\n            \"limit\": 25,\n            \"usage\": 25,\n            \"overage\": 0\n        },\n        {\n            \"name\": \"serverless_requests\",\n            \"limit\": 10000,\n            \"usage\": 0,\n            \"overage\": 0\n        },\n        {\n            \"name\": \"integrations\",\n            \"limit\": 5000,\n            \"usage\": 1018,\n            \"overage\": 0\n        },\n        {\n            \"name\": \"cloud_agent_requests\",\n            \"limit\": 1000000,\n            \"usage\": 1615,\n            \"overage\": 0\n        }\n    ]\n}"
 						},
 						{
-							"id": "989c1346-1c7b-47c1-ac76-894cbd06b967",
+							"id": "491a2fcf-b307-4bd8-acfe-909ae8999d1f",
 							"name": "Rate Limit Exceeded",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": "https://api.getpostman.com/me"
+								"url": {
+									"raw": "https://api.getpostman.com/me",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"me"
+									]
+								}
 							},
 							"status": "Too Many Requests",
 							"code": 429,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -101,7 +127,7 @@
 					]
 				}
 			],
-			"id": "0b6829f6-17f8-4710-b6c2-a284be6ce60c",
+			"id": "b7017b3f-4ec2-4c50-ad1a-3f5762ab677a",
 			"description": "The `/me` endpoints let you manage information about the authenticated user."
 		},
 		{
@@ -116,11 +142,12 @@
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"id": "d1bf3134-d6e8-4455-b43a-fb1dbb4c12a3"
 							}
 						}
 					],
-					"id": "f9337aa6-22ce-4fa1-afd6-83fc689c9a9b",
+					"id": "65512e71-b0f9-4429-8162-5f891b8e81f1",
 					"request": {
 						"method": "POST",
 						"header": [
@@ -157,7 +184,7 @@
 					},
 					"response": [
 						{
-							"id": "2725e658-7e1d-4605-9850-59e02650b547",
+							"id": "61d89a1b-8ac1-477c-9342-8730ec3ed288",
 							"name": "Successful Response",
 							"originalRequest": {
 								"method": "POST",
@@ -200,6 +227,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -216,7 +244,7 @@
 							"body": "{\n    \"collection\": {\n        \"id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\",\n        \"name\": \"Test Collection\",\n        \"uid\": \"12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n    }\n}"
 						},
 						{
-							"id": "59f10728-8015-459d-a285-d5f966bcc5d5",
+							"id": "64c5c23c-7f9b-4e31-9325-070208c16edb",
 							"name": "Bad Request",
 							"originalRequest": {
 								"method": "POST",
@@ -259,6 +287,7 @@
 							"status": "Bad Request",
 							"code": 400,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -275,7 +304,7 @@
 							"body": "{\n    \"error\": {\n        \"name\": \"instanceFoundError\",\n        \"message\": \"The specified item already exists.\",\n        \"details\": {\n            \"item\": \"collection\",\n            \"id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n        }\n    }\n}"
 						},
 						{
-							"id": "d3d71318-81be-4384-a356-6ccea378f282",
+							"id": "fa3f5cf5-d250-4a4e-bec1-bdcc9ba06314",
 							"name": "Malformed Request",
 							"originalRequest": {
 								"method": "POST",
@@ -320,6 +349,7 @@
 							"status": "Bad Request",
 							"code": 400,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -331,7 +361,7 @@
 							"body": "{\n    \"error\": {\n        \"name\": \"malformedRequestError\",\n        \"message\": \"Found 1 errors with the supplied collection.\",\n        \"details\": [\n            \": must have required property 'info'\"\n        ]\n    }\n}"
 						},
 						{
-							"id": "b6043052-b27c-4017-98b2-a3b245dcfa0d",
+							"id": "9f9bb09f-1dac-4929-ac8a-68e8cc343d95",
 							"name": "Rate Limit Exceeded",
 							"originalRequest": {
 								"method": "POST",
@@ -374,6 +404,7 @@
 							"status": "Too Many Requests",
 							"code": 429,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -396,11 +427,12 @@
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"id": "1ba04a5c-b2e6-41e4-858a-a5637d160654"
 							}
 						}
 					],
-					"id": "2c2ec7fe-e4da-48f3-86f9-c70f070e67c1",
+					"id": "8bc9a618-410a-4ce8-9d3f-4282e20c65e8",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -429,16 +461,29 @@
 					},
 					"response": [
 						{
-							"id": "62d542ec-c945-4f02-bcd5-ea10c8df8547",
+							"id": "49c4f1e1-c2bd-4814-b005-1e72c10b5485",
 							"name": "Successful Response",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -455,7 +500,7 @@
 							"body": "{\n    \"collection\": {\n        \"info\": {\n            \"name\": \"Test Collection\",\n            \"description\": \"This is a test collection that makes a tiny request to Postman Echo service to get the list of request headers sent by a HTTP client.\",\n            \"_postman_id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\",\n            \"schema\": \"https://schema.getpostman.com/json/collection/v2.0.0/collection.json\",\n            \"updatedAt\": \"2022-06-16T20:21:13.000Z\",\n            \"fork\": {\n                \"label\": \"Test Fork\",\n                \"createdAt\": \"2022-06-16T19:51:44.069Z\",\n                \"from\": \"12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n            }\n        },\n        \"item\": [\n            {\n                \"name\": \"Test GET Response\",\n                \"id\": \"82ee981b-e19f-962a-401e-ea34ebfb4848\",\n                \"event\": [\n                    {\n                        \"listen\": \"test\",\n                        \"script\": {\n                            \"id\": \"7d2334fc-a84a-4c3d-b26c-7529afa4c0ae\",\n                            \"exec\": [\n                                \"pm.test(\\\"Status code is 200\\\", function () {\",\n                                \"    pm.response.to.have.status(200);\",\n                                \"});\"\n                            ],\n                            \"type\": \"text/javascript\"\n                        }\n                    }\n                ],\n                \"request\": {\n                    \"url\": \"https://echo.getpostman.com/headers\",\n                    \"method\": \"GET\",\n                    \"header\": [\n                        {\n                            \"key\": \"Content-Type\",\n                            \"value\": \"application/json\"\n                        }\n                    ]\n                },\n                \"response\": []\n            }\n        ]\n    }\n}"
 						},
 						{
-							"id": "360a2ec0-f514-44ba-a6b0-4e137c360edd",
+							"id": "802c2e38-0b1f-403a-aaf4-ff552f9cd188",
 							"name": "Get Collection with Access Token",
 							"originalRequest": {
 								"method": "GET",
@@ -483,6 +528,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -498,32 +544,58 @@
 							"body": "{\n    \"collection\": {\n        \"info\": {\n            \"name\": \"Test Collection\",\n            \"description\": \"This is a test collection that makes a tiny request to Postman Echo service to get the list of request headers sent by a HTTP client.\",\n            \"_postman_id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\",\n            \"schema\": \"https://schema.getpostman.com/json/collection/v2.0.0/collection.json\",\n            \"updatedAt\": \"2022-06-16T20:21:13.000Z\",\n            \"fork\": {\n                \"label\": \"Test Fork\",\n                \"createdAt\": \"2022-06-16T19:51:44.069Z\",\n                \"from\": \"12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n            }\n        },\n        \"item\": [\n            {\n                \"name\": \"Test GET Response\",\n                \"id\": \"82ee981b-e19f-962a-401e-ea34ebfb4848\",\n                \"event\": [\n                    {\n                        \"listen\": \"test\",\n                        \"script\": {\n                            \"id\": \"7d2334fc-a84a-4c3d-b26c-7529afa4c0ae\",\n                            \"exec\": [\n                                \"pm.test(\\\"Status code is 200\\\", function () {\",\n                                \"    pm.response.to.have.status(200);\",\n                                \"});\"\n                            ],\n                            \"type\": \"text/javascript\"\n                        }\n                    }\n                ],\n                \"request\": {\n                    \"url\": \"https://echo.getpostman.com/headers\",\n                    \"method\": \"GET\",\n                    \"header\": [\n                        {\n                            \"key\": \"Content-Type\",\n                            \"value\": \"application/json\"\n                        }\n                    ]\n                },\n                \"response\": []\n            }\n        ]\n    }\n}"
 						},
 						{
-							"id": "975712e9-b7f3-4ef6-95f4-c6caf7de7340",
+							"id": "075bea3d-f3b3-410d-94c3-2450ade5deb4",
 							"name": "Not Found",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Not Found",
 							"code": 404,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [],
 							"cookie": [],
 							"responseTime": null,
 							"body": "{\n    \"error\": {\n        \"name\": \"instanceNotFoundError\",\n        \"message\": \"We could not find the collection you are looking for\"\n    }\n}"
 						},
 						{
-							"id": "a378492a-289e-420c-be36-e3dbc0ccb2b5",
+							"id": "c489e901-b24a-49df-b25c-bc1050a392dd",
 							"name": "Rate Limit Exceeded",
 							"originalRequest": {
 								"method": "GET",
 								"header": [],
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Too Many Requests",
 							"code": 429,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [],
 							"cookie": [],
 							"responseTime": null,
@@ -540,29 +612,55 @@
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"id": "3da35d84-969a-4b58-95f0-70eb6cd8cdb7"
 							}
 						}
 					],
-					"id": "b5855657-51df-43ff-b530-4a34f55c881a",
+					"id": "a0661755-21c3-4114-8811-a61e82d67579",
 					"request": {
 						"method": "DELETE",
 						"header": [],
-						"url": "https://api.getpostman.com/collections/{{collectionId}}",
+						"url": {
+							"raw": "https://api.getpostman.com/collections/{{collectionId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"getpostman",
+								"com"
+							],
+							"path": [
+								"collections",
+								"{{collectionId}}"
+							]
+						},
 						"description": "Deletes a collection."
 					},
 					"response": [
 						{
-							"id": "529ddc45-7c5a-49a1-8e09-9bb91fb4fff8",
+							"id": "013054c0-6b3b-4672-9a7c-517760e67016",
 							"name": "Successful Response",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [],
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -578,16 +676,29 @@
 							"body": "{\n    \"collection\": {\n        \"id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\",\n        \"uid\": \"12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n    }\n}"
 						},
 						{
-							"id": "6d1b92df-1c69-4930-92bc-9f965cce58ab",
+							"id": "ffe0e4b3-bebf-41c0-923c-e653afa7988b",
 							"name": "Not Found",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [],
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Not Found",
 							"code": 404,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -604,16 +715,29 @@
 							"body": "{\n    \"error\": {\n        \"name\": \"instanceNotFoundError\",\n        \"message\": \"The specified item does not exist.\",\n        \"details\": {\n            \"item\": \"collection\",\n            \"id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n        }\n    }\n}"
 						},
 						{
-							"id": "12c4b87e-665b-4a75-b14f-b04c8562514c",
+							"id": "9493af1d-43f0-40f2-bba6-d66ab1e812b7",
 							"name": "Rate Limit Exceeded",
 							"originalRequest": {
 								"method": "DELETE",
 								"header": [],
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Too Many Requests",
 							"code": 429,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -639,11 +763,12 @@
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"id": "80f3828a-fa03-4e10-b3af-5ca841e5ef81"
 							}
 						}
 					],
-					"id": "db904341-ab1d-4826-886c-99cae402bfed",
+					"id": "1edcd475-e394-43d9-9285-efefe0016fc5",
 					"request": {
 						"method": "PUT",
 						"header": [
@@ -656,12 +781,24 @@
 							"mode": "raw",
 							"raw": "{\n    \"collection\": {\n        \"info\": {\n            \"name\": \"{{collectionName}}\",\n            \"schema\": \"{{collectionSchemaUrl}}\"\n        },\n        \"item\": [\n            {\n                \"request\": {}\n            }\n        ]\n    }\n}"
 						},
-						"url": "https://api.getpostman.com/collections/{{collectionId}}",
+						"url": {
+							"raw": "https://api.getpostman.com/collections/{{collectionId}}",
+							"protocol": "https",
+							"host": [
+								"api",
+								"getpostman",
+								"com"
+							],
+							"path": [
+								"collections",
+								"{{collectionId}}"
+							]
+						},
 						"description": "Updates a collection using the [Postman Collection v2 schema format](https://schema.postman.com/json/collection/v2.1.0/docs/index.html). Include a `collection` object in the request body that contains the following required properties:\n\n- `info` — An **object** that contains the following properties:\n    - `name` — A **string** value that contains the collection's name.\n    - `schema` — A **string** that contains a URL to the collection's schema. For example, the `https://schema.getpostman.com/collection/v1` URL.\n- `item` — An **object** that contains the HTTP request and response information.\n    - `request` — An **object** that contains the collection's request information. For a complete list of values, refer to the `definitions.request` entry in the [collection.json schema file](https://schema.postman.com/json/collection/v2.1.0/collection.json). If you pass an empty object for this value, the system defaults to an untitled GET request.\n\n**Note:**\n\n- For a complete list of available property values for this endpoint, use the following references available in the [collection.json schema file](https://schema.postman.com/json/collection/v2.1.0/collection.json):\n    - `info` object — Use the `definitions.info` entry.\n    - `item` object — Use the `definitions.items` entry.\n- For all other possible values, refer to the [collection.json schema file](https://schema.postman.com/json/collection/v2.1.0/collection.json).\n    \n\n### Important\n\nUse caution when using this endpoint. The system will replace the existing collection with the values passed in the request body."
 					},
 					"response": [
 						{
-							"id": "56b66ff9-d1a3-4db1-be78-955ba6752d6d",
+							"id": "e22c6af8-eef8-470e-b294-e86914114eb5",
 							"name": "Successful Response",
 							"originalRequest": {
 								"method": "PUT",
@@ -680,11 +817,24 @@
 										}
 									}
 								},
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -701,7 +851,7 @@
 							"body": "{\n    \"collection\": {\n        \"id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\",\n        \"name\": \"Test Collection\",\n        \"uid\": \"12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n    }\n}"
 						},
 						{
-							"id": "25379001-7806-479f-90a7-c365239107a6",
+							"id": "9f71d06c-a927-49f9-bb29-74faec51fcde",
 							"name": "Forbidden",
 							"originalRequest": {
 								"method": "PUT",
@@ -720,11 +870,24 @@
 										}
 									}
 								},
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Forbidden",
 							"code": 403,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -740,7 +903,7 @@
 							"body": "{\n    \"error\": {\n        \"name\": \"forbiddenError\",\n        \"message\": \"You do not have enough permissions to perform this action.\"\n    }\n}"
 						},
 						{
-							"id": "40c0e24f-020f-4113-8cdd-aeaa61e95631",
+							"id": "79519b07-6b14-47ce-9c5d-718a621b0312",
 							"name": "Not Found",
 							"originalRequest": {
 								"method": "PUT",
@@ -759,11 +922,24 @@
 										}
 									}
 								},
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Not Found",
 							"code": 404,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -780,7 +956,7 @@
 							"body": "{\n    \"error\": {\n        \"name\": \"instanceNotFoundError\",\n        \"message\": \"The specified item does not exist.\",\n        \"details\": {\n            \"item\": \"collection\",\n            \"id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n        }\n    }\n}"
 						},
 						{
-							"id": "32be0baa-bd11-4d93-b658-845755d7a1c7",
+							"id": "3782863e-57de-4dae-827b-c9cc35fb28f6",
 							"name": "Malformed Request",
 							"originalRequest": {
 								"method": "PUT",
@@ -799,11 +975,24 @@
 										}
 									}
 								},
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Bad Request",
 							"code": 400,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -820,7 +1009,7 @@
 							"body": "{\n    \"error\": {\n        \"name\": \"malformedRequestError\",\n        \"message\": \"Found 2 errors with the supplied collection.\",\n        \"details\": [\n            \": must have required property 'item'\",\n            \"info: must have required property 'schema'\"\n        ]\n    }\n}"
 						},
 						{
-							"id": "1e50d6d2-eb01-43e0-952e-f41fb276b88b",
+							"id": "c1e66b14-d4b0-4423-8f09-646c21aa726e",
 							"name": "Collection ID Mismatch",
 							"originalRequest": {
 								"method": "PUT",
@@ -839,11 +1028,24 @@
 										}
 									}
 								},
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Bad Request",
 							"code": 400,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -860,7 +1062,7 @@
 							"body": "{\n    \"error\": {\n        \"name\": \"collectionMismatchError\",\n        \"message\": \"The collection ID in the path does not match the collection ID in the request body.\"\n    }\n}"
 						},
 						{
-							"id": "d43e10cc-ecbf-4096-aea7-d725b173f141",
+							"id": "8c04b7e4-d6d4-4878-ba79-d14a0cb1ea38",
 							"name": "Rate Limit Exceeded",
 							"originalRequest": {
 								"method": "PUT",
@@ -879,11 +1081,24 @@
 										}
 									}
 								},
-								"url": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2"
+								"url": {
+									"raw": "https://api.getpostman.com/collections/12ece9e1-2abf-4edc-8e34-de66e74114d2",
+									"protocol": "https",
+									"host": [
+										"api",
+										"getpostman",
+										"com"
+									],
+									"path": [
+										"collections",
+										"12ece9e1-2abf-4edc-8e34-de66e74114d2"
+									]
+								}
 							},
 							"status": "Too Many Requests",
 							"code": 429,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -909,11 +1124,12 @@
 								"exec": [
 									""
 								],
-								"type": "text/javascript"
+								"type": "text/javascript",
+								"id": "1f0be80c-126a-450d-bb9c-e92ba7a8dfdf"
 							}
 						}
 					],
-					"id": "4ec3023b-69e2-46d7-88d6-9a4559bb80a8",
+					"id": "1ecb6168-5953-4419-ba75-9890a9022777",
 					"request": {
 						"method": "GET",
 						"header": [],
@@ -941,7 +1157,7 @@
 					},
 					"response": [
 						{
-							"id": "fc64df27-90ec-4b5b-86e0-1b89f9c4625b",
+							"id": "6944f017-45eb-4812-a9b0-9786744fff58",
 							"name": "Successful Response",
 							"originalRequest": {
 								"method": "GET",
@@ -970,6 +1186,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -985,7 +1202,7 @@
 							"body": "{\n    \"collections\": [\n        {\n            \"id\": \"dac5eac9-148d-a32e-b76b-3edee9da28f7\",\n            \"name\": \"Cloud API\",\n            \"owner\": \"12345678\",\n            \"createdAt\": \"2022-04-12T10:29:46.000Z\",\n            \"updatedAt\": \"2022-04-12T10:29:56.000Z\",\n            \"uid\": \"12345678-dac5eac9-148d-a32e-b76b-3edee9da28f7\",\n            \"isPublic\": true\n        },\n        {\n            \"id\": \"12ece9e1-2abf-4edc-8e34-de66e74114d2\",\n            \"name\": \"Test Collection\",\n            \"owner\": \"12345678\",\n            \"createdAt\": \"2022-01-13T10:21:46.000Z\",\n            \"updatedAt\": \"2022-02-12T11:29:56.000Z\",\n            \"uid\": \"12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2\",\n            \"isPublic\": false,\n            \"fork\": {\n                \"label\": \"Test Fork\",\n                \"createdAt\": \"2022-06-16T19:51:44.069Z\",\n                \"from\": \"12345678-12ece9e1-2abf-4edc-8e34-de66e74114d2\"\n            }\n        },\n        {\n            \"id\": \"f695cab7-6878-eb55-7943-ad88e1ccfd65\",\n            \"name\": \"Postman Echo\",\n            \"owner\": \"12345678\",\n            \"createdAt\": \"2021-04-11T09:18:26.000Z\",\n            \"updatedAt\": \"2022-05-01T15:29:32.000Z\",\n            \"uid\": \"12345678-f695cab7-6878-eb55-7943-ad88e1ccfd65\",\n            \"isPublic\": true\n        }\n    ]\n}"
 						},
 						{
-							"id": "7e924448-060c-449b-869c-194230952152",
+							"id": "d4048927-78bb-4ba8-a5e7-61dea6184c0d",
 							"name": "Filter by Workspace",
 							"originalRequest": {
 								"method": "GET",
@@ -1013,6 +1230,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -1028,7 +1246,7 @@
 							"body": "{\n    \"collections\": [\n        {\n            \"id\": \"dac5eac9-148d-a32e-b76b-3edee9da28f7\",\n            \"name\": \"Cloud API\",\n            \"owner\": \"12345678\",\n            \"createdAt\": \"2022-04-12T10:29:46.000Z\",\n            \"updatedAt\": \"2022-04-12T10:29:56.000Z\",\n            \"uid\": \"12345678-dac5eac9-148d-a32e-b76b-3edee9da28f7\",\n            \"isPublic\": true\n        }\n    ]\n}"
 						},
 						{
-							"id": "421dab35-db73-4854-9e25-5b1f4629c503",
+							"id": "299d3e61-8f13-4d7f-b542-2023f566b119",
 							"name": "Rate Limit Exceeded",
 							"originalRequest": {
 								"method": "GET",
@@ -1057,6 +1275,7 @@
 							"status": "Too Many Requests",
 							"code": 429,
 							"_postman_previewlanguage": "json",
+							"_postman_previewtype": "html",
 							"header": [
 								{
 									"key": "Content-Type",
@@ -1074,16 +1293,24 @@
 					]
 				}
 			],
-			"id": "d9910040-31ca-4a43-a08e-382bdfcaeaa7",
+			"id": "764895b4-ba80-42a4-9993-025a485d6327",
 			"description": "The `/collections` endpoints let you manage your [collections](https://learning.postman.com/docs/sending-requests/intro-to-collections/)."
 		}
 	],
 	"auth": {
 		"type": "apikey",
-		"apikey": {
-			"key": "X-API-Key",
-			"value": "{{token}}"
-		}
+		"apikey": [
+			{
+				"key": "key",
+				"value": "X-API-Key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
 	},
 	"event": [
 		{
@@ -1092,7 +1319,8 @@
 				"type": "text/javascript",
 				"exec": [
 					""
-				]
+				],
+				"id": "745443c1-4a14-4863-b0d3-723e8df44287"
 			}
 		},
 		{
@@ -1101,7 +1329,8 @@
 				"type": "text/javascript",
 				"exec": [
 					""
-				]
+				],
+				"id": "cff539ad-468c-49d2-88f7-919d7c34cbc6"
 			}
 		}
 	],
